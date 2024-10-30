@@ -1,0 +1,94 @@
+:root {
+	--mem-border-color: #1164cb;
+	--mem-primary-color: #1164cb;
+	--mem-secondary-color: #fff;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 10px;
+	align-items: center;
+	padding: 7px 0;
+}
+.single-block{
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.ml-1{
+	margin-left: 1%;
+}
+.mt-3{
+	margin-top: 3%;
+}
+.see_all{
+	text-align: center;
+}
+/* membership plans start*/
+.membership-plans{
+	label{
+		font-weight: 500;
+	}
+	.item{
+		font-size: 14px;
+		display: grid;
+		grid-template-columns: 155px auto;
+		column-gap: 10px;
+		align-items: center;
+		padding: 12px 0;
+		border-bottom: 1px solid #D1D5DB;
+	}
+}
+.success{
+	border: 1px solid rgb(9, 96, 9);
+	color: rgb(9, 96, 9);
+}
+.error{
+	border: 1px solid red;
+	color: red;
+}
+.tag{
+	display: inline;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 6px 12px;
+}
+.cancel-membership{
+	background: var(--mem-primary-color);
+	color: var(--mem-secondary-color);
+}
+.non_member_msg{
+	line-height: 0.5;
+	font-size: 13px;
+	margin-bottom: 5px;
+	color: #1BA97F;
+}
+/* membership plans end*/
+
+/* Form css start */
+.reg-form{
+	max-width: 500px;
+	margin: 0 35%;
+	display: table;
+}
+.group-field{
+	margin-bottom: 15px;
+	.form-label{
+		font-size: 13px;
+		line-height: 1.625rem;
+		margin-bottom: 5px;
+	}
+}
+
+.input-wrap select,
+.input-wrap textarea{
+	border: 1px solid #E6E6E6 !important;
+	font-size: 13px !important;
+	border-radius: 4px !important;
+	margin: 0;
+}
+
+.input-wrap select,
+.wp-core-ui select {
+	height: 40px;
+}
+/* Form css end */

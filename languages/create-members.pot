@@ -1,0 +1,1217 @@
+# Copyright (C) 2024 Woooplugin
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Create Membership 1.0.40\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/create-members\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-07T11:35:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: create-members\n"
+
+#. Plugin Name of the plugin
+#: create-members.php
+msgid "Create Membership"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: create-members.php
+msgid "https://woooplugin.com/ultimate-membership"
+msgstr ""
+
+#. Description of the plugin
+#: create-members.php
+#: core/modules/modules.php:9
+msgid "Restrict content, manage member subscriptions, Offer discount to Capture and keep users engaged with your business."
+msgstr ""
+
+#. Author of the plugin
+#: create-members.php
+msgid "Woooplugin"
+msgstr ""
+
+#. Author URI of the plugin
+#: create-members.php
+msgid "https://woooplugin.com/"
+msgstr ""
+
+#: base/actions.php:50
+msgid "Settings Save Successfully"
+msgstr ""
+
+#: base/actions.php:52
+msgid "Membership Plan"
+msgstr ""
+
+#: base/actions.php:54
+msgid "Membership Plan Added Successfully"
+msgstr ""
+
+#: base/actions.php:58
+msgid "Member Added Successfully"
+msgstr ""
+
+#: base/actions.php:60
+msgid "User Missing"
+msgstr ""
+
+#: base/actions.php:107
+#: core/models/members.php:182
+msgid "Member"
+msgstr ""
+
+#: base/actions.php:167
+#: base/actions.php:171
+#: core/models/members.php:224
+msgid "Sent"
+msgstr ""
+
+#: base/actions.php:171
+#: core/models/members.php:224
+msgid "Re-Send"
+msgstr ""
+
+#: base/input-fields.php:13
+#: core/admin/header.php:53
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: base/input-fields.php:160
+#: base/input-fields.php:343
+#: base/input-fields.php:357
+#: utils/helper.php:539
+msgid "Pro"
+msgstr ""
+
+#: base/input-fields.php:161
+#: base/input-fields.php:344
+msgid "Template"
+msgstr ""
+
+#: core/admin/header.php:15
+#: core/admin/menus.php:126
+#: core/admin/menus.php:127
+#: core/admin/settings.php:35
+#: wrapper.php:37
+msgid "Settings"
+msgstr ""
+
+#: core/admin/header.php:21
+#: core/admin/menus.php:135
+#: core/admin/menus.php:136
+#: core/modules/plans/plans.php:5
+#: core/modules/plans/plans.php:27
+#: core/modules/plans/plans.php:28
+msgid "Subscriptions"
+msgstr ""
+
+#: core/admin/header.php:27
+#: core/admin/menus.php:144
+#: core/admin/menus.php:145
+#: core/modules/members/views/members.php:12
+#: core/modules/reports/parts/summary.php:30
+msgid "Members"
+msgstr ""
+
+#: core/admin/header.php:33
+#: core/admin/menus.php:153
+#: core/admin/menus.php:154
+#: core/modules/reports/parts/summary.php:79
+msgid "Reports"
+msgstr ""
+
+#: core/admin/header.php:39
+msgid "Support"
+msgstr ""
+
+#: core/admin/header.php:44
+msgid "Feature Request"
+msgstr ""
+
+#: core/admin/hooks.php:36
+msgid "Membership Package"
+msgstr ""
+
+#: core/admin/hooks.php:52
+msgid "Select Membership Package"
+msgstr ""
+
+#: core/admin/menus.php:55
+#: core/admin/menus.php:56
+#: core/modules/members/account.php:65
+msgid "Membership"
+msgstr ""
+
+#: core/admin/menus.php:162
+#: core/admin/menus.php:163
+#: core/modules/modules.php:40
+msgid "Modules"
+msgstr ""
+
+#: core/admin/menus.php:175
+msgid "Upgrade To Premium"
+msgstr ""
+
+#: core/admin/settings.php:20
+#: core/models/plans.php:211
+msgid "Plans"
+msgstr ""
+
+#: core/admin/settings.php:24
+msgid "General Settings"
+msgstr ""
+
+#: core/admin/settings.php:25
+#: core/admin/settings/tab-content/parts/contents/settings.php:35
+msgid "Content Settings"
+msgstr ""
+
+#: core/admin/settings.php:26
+msgid "Email"
+msgstr ""
+
+#: core/admin/settings.php:27
+msgid "Shortcodes"
+msgstr ""
+
+#: core/admin/settings.php:60
+#: core/modules/members/views/add-member.php:144
+#: core/modules/modules.php:74
+#: core/modules/plans/add-plan.php:135
+msgid "Save Changes"
+msgstr ""
+
+#: core/admin/settings/tab-content/content.php:4
+msgid "WordPress Membership Settings"
+msgstr ""
+
+#: core/admin/settings/tab-content/content.php:5
+msgid "Set WordPress Membership settings to restrict contents"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:9
+msgid "Notification Type"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:17
+msgid "Email to All Members"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:18
+msgid "Email to New Member"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:19
+msgid "Email to Cancel Member"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:26
+msgid "Email Template Tags"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:29
+msgid "Membership Plan name will be added in the template"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:37
+msgid "Select Plan"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:39
+msgid "Send email to all members of selected Plan"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:51
+#: core/admin/settings/tab-content/email.php:84
+#: core/admin/settings/tab-content/email.php:118
+msgid "Subject"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:52
+#: core/admin/settings/tab-content/email.php:85
+#: core/admin/settings/tab-content/email.php:119
+msgid "Enter Subject of the Email"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:61
+#: core/admin/settings/tab-content/email.php:94
+#: core/admin/settings/tab-content/email.php:128
+msgid "Title"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:62
+#: core/admin/settings/tab-content/email.php:95
+#: core/admin/settings/tab-content/email.php:129
+msgid "Enter Title of the Email"
+msgstr ""
+
+#: core/admin/settings/tab-content/email.php:71
+#: core/admin/settings/tab-content/email.php:104
+#: core/admin/settings/tab-content/email.php:138
+msgid "Message"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:8
+msgid "Page Link"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:11
+msgid "Subscription Page Link"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:12
+msgid "Enter Subscription Page Link"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:13
+msgid "Redirect to the page to Purchase Subscription"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:21
+msgid "Message Settings"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:24
+msgid "Message for Restrict Content"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:25
+msgid "Enter Message"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:26
+msgid "Message will be Shown to Non member and Logged Out user when access to the Content"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:38
+msgid "Filter searches and archives"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:45
+msgid "Yes - Only Members will See Restricted Posts/Pages in Searches and Archives."
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/contents/settings.php:46
+msgid "No - Non-Members will See Restricted Posts/Pages in Searches and Archives."
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:9
+msgid "Enable Membership Plan"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:19
+msgid "Membership Level Based On"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:21
+msgid "Customer can be a member based on purchase a specific product or subscription package or based total cart amount. Note: Recurring Subscription will work only for \"Purchase Subscription Package\""
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:28
+msgid "Purchase Subscription Package"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:29
+msgid "Purchase Amount"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:30
+msgid "Purchase Specific Product"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:35
+msgid "WooCommerce Membership Settings"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:36
+msgid "Set WooCommerce Membership settings to enable offer for the members"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:40
+msgid "Hide Price Message"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:42
+msgid "Message will be display to hide price product"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:52
+msgid "Show Offer to Non-Member"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:63
+msgid "Message for Non-Member"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:64
+msgid "Enter Message for Non-Member"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:75
+msgid "Re-Direct Page"
+msgstr ""
+
+#: core/admin/settings/tab-content/parts/woo/settings.php:76
+msgid "Re-Direct to the Page if click to the Restrict page"
+msgstr ""
+
+#: core/admin/settings/tab-content/short-codes.php:11
+msgid "Registration Form"
+msgstr ""
+
+#: core/admin/settings/tab-content/short-codes.php:16
+msgid "Select Modules"
+msgstr ""
+
+#: core/admin/settings/tab-content/short-codes.php:17
+msgid "Selected Module will be displayed in the registration form"
+msgstr ""
+
+#: core/admin/settings/tab-content/short-codes.php:30
+msgid "Copy the Shortcode"
+msgstr ""
+
+#: core/admin/settings/tab-content/short-codes.php:31
+msgid "Place the shortcode in any pages to show subscription form"
+msgstr ""
+
+#: core/admin/settings/tab-content/short-codes.php:42
+msgid "Copy"
+msgstr ""
+
+#: core/frontend/frontend.php:188
+#: core/modules/members/views/plan-details.php:51
+msgid "Membership Discount"
+msgstr ""
+
+#: core/models/members.php:171
+msgid "Membership Details"
+msgstr ""
+
+#: core/models/members.php:174
+msgid "Thank you for being our member! You will get offer details of your membership here."
+msgstr ""
+
+#: core/models/members.php:182
+msgid "Congratulations you are "
+msgstr ""
+
+#: core/models/members.php:282
+#: core/models/plans.php:476
+msgid "Unlimited"
+msgstr ""
+
+#: core/models/plans.php:54
+#: core/modules/members/views/add-member.php:29
+msgid "View Members"
+msgstr ""
+
+#: core/models/plans.php:163
+msgid "then"
+msgstr ""
+
+#: core/models/plans.php:165
+msgid "per"
+msgstr ""
+
+#: core/models/plans.php:213
+msgid "Assign Member to Active Subscription"
+msgstr ""
+
+#: core/models/plans.php:232
+#: core/models/plans.php:235
+#: core/models/plans.php:289
+#: core/models/plans.php:293
+msgid "Active"
+msgstr ""
+
+#: core/models/plans.php:237
+msgid "Cancel"
+msgstr ""
+
+#: core/models/plans.php:239
+#: core/models/plans.php:286
+msgid "Expired"
+msgstr ""
+
+#: core/models/plans.php:241
+msgid "InActive"
+msgstr ""
+
+#: core/models/plans.php:268
+msgid "Limited:"
+msgstr ""
+
+#: core/models/plans.php:271
+msgid "Lifetime"
+msgstr ""
+
+#: core/models/plans.php:453
+#: utils/helper.php:625
+msgid "now"
+msgstr ""
+
+#: core/models/reports.php:68
+#: core/models/reports.php:137
+msgid "Today"
+msgstr ""
+
+#: core/models/reports.php:74
+#: core/models/reports.php:161
+msgid "This Month"
+msgstr ""
+
+#: core/models/reports.php:80
+#: core/models/reports.php:185
+msgid "This Year"
+msgstr ""
+
+#: core/models/reports.php:293
+msgid "January"
+msgstr ""
+
+#: core/models/reports.php:294
+msgid "February"
+msgstr ""
+
+#: core/models/reports.php:295
+msgid "March"
+msgstr ""
+
+#: core/models/reports.php:296
+msgid "April"
+msgstr ""
+
+#: core/models/reports.php:297
+msgid "May"
+msgstr ""
+
+#: core/models/reports.php:298
+msgid "June"
+msgstr ""
+
+#: core/models/reports.php:299
+msgid "July"
+msgstr ""
+
+#: core/models/reports.php:300
+msgid "August"
+msgstr ""
+
+#: core/models/reports.php:301
+msgid "September"
+msgstr ""
+
+#: core/models/reports.php:302
+msgid "October"
+msgstr ""
+
+#: core/models/reports.php:303
+msgid "November"
+msgstr ""
+
+#: core/models/reports.php:304
+msgid "December"
+msgstr ""
+
+#: core/modules/members/account.php:138
+msgid "You have cancelled membership from"
+msgstr ""
+
+#: core/modules/members/account.php:139
+msgid "Plan."
+msgstr ""
+
+#: core/modules/members/account.php:144
+msgid "Membership Cancellation "
+msgstr ""
+
+#: core/modules/members/exporter.php:55
+#: core/modules/members/views/members.php:25
+msgid "User"
+msgstr ""
+
+#: core/modules/members/exporter.php:56
+#: core/modules/members/views/members.php:26
+msgid "Membership Status"
+msgstr ""
+
+#: core/modules/members/exporter.php:57
+#: core/modules/members/views/members.php:27
+#: core/modules/reports/parts/summary.php:9
+msgid "Subscription"
+msgstr ""
+
+#: core/modules/members/exporter.php:58
+#: core/modules/members/views/members.php:29
+msgid "Order Information"
+msgstr ""
+
+#: core/modules/members/exporter.php:59
+#: core/modules/members/views/members.php:30
+msgid "Start Date"
+msgstr ""
+
+#: core/modules/members/exporter.php:60
+#: core/modules/members/views/members.php:31
+msgid "End Date"
+msgstr ""
+
+#: core/modules/members/table.php:54
+#: core/modules/members/table.php:55
+#: core/modules/plans/table.php:49
+#: core/modules/plans/table.php:50
+msgid "Delete"
+msgstr ""
+
+#: core/modules/members/table.php:62
+#: core/modules/members/table.php:63
+msgid "Edit Member"
+msgstr ""
+
+#: core/modules/members/table.php:68
+#: core/modules/members/table.php:69
+msgid "Edit User"
+msgstr ""
+
+#: core/modules/members/table.php:103
+#: core/modules/plans/table.php:138
+msgid "Security check failed!"
+msgstr ""
+
+#: core/modules/members/table.php:142
+#: core/modules/plans/table.php:161
+msgid "Move to Trash"
+msgstr ""
+
+#: core/modules/members/table.php:169
+#: core/modules/members/views/add-member.php:125
+msgid "Order Details"
+msgstr ""
+
+#: core/modules/members/table.php:216
+#: core/modules/members/views/add-member.php:80
+msgid "Select Subscription"
+msgstr ""
+
+#: core/modules/members/table.php:226
+msgid "No Plan found"
+msgstr ""
+
+#: core/modules/members/table.php:234
+msgid "Filter By Plan"
+msgstr ""
+
+#: core/modules/members/table.php:235
+#: core/modules/plans/table.php:125
+msgid "Export CSV"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:24
+msgid "Add New Member"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:25
+#: core/modules/plans/add-plan.php:25
+#: core/modules/plans/table.php:57
+#: core/modules/plans/table.php:58
+msgid "Edit"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:36
+msgid "Enable Member"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:62
+msgid "New User"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:68
+msgid "Select User"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:93
+msgid "Member Note"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:94
+msgid "Enter Member Note"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:95
+msgid "Member Notes are Private and only Visible to other Users with Membership Management Capabilities"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:103
+msgid "Expire Date"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:104
+msgid "Enter Expire Date"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:105
+msgid "Subscription Default End date will be replaced with this Expire Date. Reset Expire Date to Set Default Subscription End Date."
+msgstr ""
+
+#: core/modules/members/views/add-member.php:106
+msgid "NOTE: Expire Date will not work if Recurring subscription applied at the Subscription Level."
+msgstr ""
+
+#: core/modules/members/views/add-member.php:109
+msgid "Reset"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:114
+msgid "Other Information"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:120
+#: core/modules/members/views/members.php:28
+msgid "Next Payment Date"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:126
+msgid "View Order Details"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:134
+msgid "Subscription Details"
+msgstr ""
+
+#: core/modules/members/views/add-member.php:135
+msgid "View Subscription Details"
+msgstr ""
+
+#: core/modules/members/views/members.php:14
+#: utils/helper.php:346
+#: utils/helper.php:347
+msgid "New Member"
+msgstr ""
+
+#: core/modules/members/views/members.php:32
+msgid "New Member Mail"
+msgstr ""
+
+#: core/modules/members/views/members.php:36
+msgid "All Member"
+msgstr ""
+
+#: core/modules/members/views/members.php:37
+msgid "All Members"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:15
+msgid "Membership Plan Details"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:18
+msgid "Membership Status:"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:24
+msgid "Subscription Level:"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:28
+msgid "Price:"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:32
+msgid "Start Date:"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:37
+msgid "End Date:"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:45
+msgid "Next Payment Date:"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:54
+msgid "Free Shipping:"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:59
+msgid "Actions:"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:66
+msgid "Cancel Membership"
+msgstr ""
+
+#: core/modules/members/views/plan-details.php:72
+msgid "Renew Now"
+msgstr ""
+
+#: core/modules/members/views/subscriptions/related-orders.php:10
+msgid "Related orders"
+msgstr ""
+
+#: core/modules/members/views/subscriptions/related-orders.php:21
+msgid "Relation"
+msgstr ""
+
+#: core/modules/members/views/subscriptions/related-orders.php:25
+msgid "Order Date"
+msgstr ""
+
+#: core/modules/members/views/subscriptions/related-orders.php:26
+msgid "Date"
+msgstr ""
+
+#: core/modules/members/views/subscriptions/related-orders.php:27
+#: core/modules/plans/add-plan.php:44
+#: core/modules/plans/exporter.php:58
+#: core/modules/plans/plans.php:22
+msgid "Status"
+msgstr ""
+
+#: core/modules/members/views/subscriptions/related-orders.php:28
+msgid "Total"
+msgstr ""
+
+#: core/modules/modules.php:8
+msgid "Setup Unlimited Membership to Increase your business revenue"
+msgstr ""
+
+#: core/modules/modules.php:17
+#: utils/helper.php:589
+msgid "WooCommerce Membership"
+msgstr ""
+
+#: core/modules/modules.php:18
+msgid "Offer discount to Capture and keep users engaged with your business."
+msgstr ""
+
+#: core/modules/modules.php:20
+#: core/modules/modules.php:31
+msgid "Go to Pro"
+msgstr ""
+
+#: core/modules/modules.php:21
+msgid "Note: Please Active WooCommerce to work properly"
+msgstr ""
+
+#: core/modules/modules.php:28
+msgid "WordPress Membership"
+msgstr ""
+
+#: core/modules/modules.php:29
+msgid "Robust content restriction tools and a powerful WordPress membership site, all in one easy to manage plugin."
+msgstr ""
+
+#: core/modules/plans/add-plan.php:25
+#: core/modules/plans/plans.php:7
+msgid "Add New Subscription"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:29
+msgid "View Subscriptions"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:35
+msgid "Create Subscription Level for"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:67
+#: core/modules/plans/exporter.php:55
+#: core/modules/plans/plans.php:18
+msgid "Name"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:68
+msgid "Enter Subscription Level Name"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:69
+msgid "Subscription Name will be Shown in Registration Page"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:77
+msgid "Description"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:78
+msgid "Enter Subscription Level Description"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:79
+msgid "Subscription Description will be Shown in Registration Page"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:90
+msgid "Select Products"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:91
+msgid "Customer will be member in this  plan after purchasing the product"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:102
+msgid "Total Order Amount"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:103
+msgid "Customer will be member in this  plan with this total order amount"
+msgstr ""
+
+#: core/modules/plans/add-plan.php:104
+msgid "Enter Order Amount"
+msgstr ""
+
+#: core/modules/plans/discounts.php:6
+msgid "Enable Discount On Product/Category"
+msgstr ""
+
+#: core/modules/plans/discounts.php:15
+msgid "Discount Label"
+msgstr ""
+
+#: core/modules/plans/discounts.php:16
+msgid "Enter discount label"
+msgstr ""
+
+#: core/modules/plans/discounts.php:25
+msgid "Discount In"
+msgstr ""
+
+#: core/modules/plans/discounts.php:30
+msgid "Product"
+msgstr ""
+
+#: core/modules/plans/discounts.php:31
+msgid "Category"
+msgstr ""
+
+#: core/modules/plans/discounts.php:42
+msgid "Products"
+msgstr ""
+
+#: core/modules/plans/discounts.php:55
+msgid "Categories"
+msgstr ""
+
+#: core/modules/plans/discounts.php:69
+#: core/modules/plans/types/woo-modules.php:87
+msgid "Discount Type"
+msgstr ""
+
+#: core/modules/plans/discounts.php:75
+msgid "Fixed Discount"
+msgstr ""
+
+#: core/modules/plans/discounts.php:76
+msgid "Percentage Discount"
+msgstr ""
+
+#: core/modules/plans/discounts.php:83
+msgid "Discount:"
+msgstr ""
+
+#: core/modules/plans/exporter.php:56
+#: core/modules/plans/plans.php:20
+msgid "Durations"
+msgstr ""
+
+#: core/modules/plans/exporter.php:57
+#: core/modules/plans/plans.php:21
+msgid "Membership Cost"
+msgstr ""
+
+#: core/modules/plans/plans.php:19
+#: core/modules/reports/parts/summary.php:36
+msgid "Active Members"
+msgstr ""
+
+#: core/modules/plans/plans.php:23
+msgid "Actions"
+msgstr ""
+
+#: core/modules/plans/table.php:106
+msgid "Select Modules Type"
+msgstr ""
+
+#: core/modules/plans/table.php:116
+msgid "No modules found"
+msgstr ""
+
+#: core/modules/plans/table.php:124
+msgid "Filter By Modules"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:9
+msgid "Billing Details:"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:10
+msgid "Set Initial payment to become a member and Recurring payments, if applicable, begin one cycle after the initial payment."
+msgstr ""
+
+#: core/modules/plans/types/billing.php:13
+msgid "Initial Payment"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:14
+msgid "Subscription Level Price. 0 for free"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:15
+msgid "Enter Subscription Price"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:24
+msgid "Recurring Subscription"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:36
+msgid "Billing Amount"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:40
+msgid "Amount"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:42
+msgid "The amount to be billed one cycle after the initial payment."
+msgstr ""
+
+#: core/modules/plans/types/billing.php:55
+#: core/modules/plans/types/billing.php:103
+msgid "Length"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:67
+#: core/modules/plans/types/billing.php:115
+msgid "Type"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:83
+msgid "Stop Renewing After"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:84
+#: core/modules/plans/types/billing.php:123
+#: utils/helper.php:387
+msgid "Month(s)"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:85
+msgid "Automatically stop renewing after this length of time. Leave blank to do not stop."
+msgstr ""
+
+#: core/modules/plans/types/billing.php:96
+msgid "Expiration Settings:"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:97
+msgid "Set Subscription duration when membership access expires"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:99
+msgid "Duration"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:104
+msgid "Enter 0 for Unlimited"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:122
+#: utils/helper.php:386
+msgid "Day(s)"
+msgstr ""
+
+#: core/modules/plans/types/billing.php:124
+#: utils/helper.php:388
+msgid "Year(s)"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:12
+msgid "Product Discount Section:"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:13
+msgid "Offer Discount to specific product or categories into Membership Plan"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:19
+msgid "Restrict Product/Price Section:"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:20
+msgid "ONLY MEMBERS can buy these products, view prices and can access the pages"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:23
+msgid "Show Products to this Subscription"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:35
+msgid "Show Prices of the product"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:47
+#: core/modules/plans/types/wp-modules.php:23
+msgid "Show Pages"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:60
+msgid "Cart/Shipping Discount Section:"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:61
+msgid "Offer Discount on total spend into specific Membership Plan"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:64
+msgid "Free Shipping"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:71
+msgid "Cart Discount"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:75
+msgid "Cart Amount"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:95
+msgid "Percentage(%)"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:96
+msgid "Fix Discount"
+msgstr ""
+
+#: core/modules/plans/types/woo-modules.php:102
+msgid "Discount Amount"
+msgstr ""
+
+#: core/modules/plans/types/wp-modules.php:12
+msgid "Content Settings Section:"
+msgstr ""
+
+#: core/modules/plans/types/wp-modules.php:15
+msgid "Protect access to posts, pages, and content sections. Read "
+msgstr ""
+
+#: core/modules/plans/types/wp-modules.php:16
+msgid "Documentation"
+msgstr ""
+
+#: core/modules/plans/types/wp-modules.php:17
+msgid "to protect content"
+msgstr ""
+
+#: core/modules/plans/types/wp-modules.php:35
+msgid "Post Categories"
+msgstr ""
+
+#: core/modules/plans/types/wp-modules.php:47
+msgid "Single Post"
+msgstr ""
+
+#: core/modules/reports/parts/summary.php:15
+msgid "Active Subscriptions"
+msgstr ""
+
+#: core/modules/reports/parts/summary.php:19
+msgid "InActive Subscriptions"
+msgstr ""
+
+#: core/modules/reports/parts/summary.php:40
+msgid "InActive Members"
+msgstr ""
+
+#: core/modules/reports/parts/summary.php:53
+#: core/modules/reports/parts/tables.php:41
+#: core/modules/reports/parts/visual-report.php:26
+msgid "Revenue"
+msgstr ""
+
+#: core/modules/reports/parts/summary.php:59
+#: core/modules/reports/parts/tables.php:40
+msgid "Sales"
+msgstr ""
+
+#: core/modules/reports/parts/summary.php:63
+#: core/modules/reports/parts/tables.php:42
+#: core/modules/reports/parts/visual-report.php:31
+msgid "Refund"
+msgstr ""
+
+#: core/modules/reports/parts/summary.php:80
+msgid "Performance"
+msgstr ""
+
+#: core/modules/reports/parts/summary.php:103
+msgid "View Details"
+msgstr ""
+
+#: core/modules/reports/parts/tables.php:7
+msgid "States"
+msgstr ""
+
+#: core/modules/reports/parts/tables.php:10
+msgid "Membership States"
+msgstr ""
+
+#: core/modules/reports/parts/tables.php:14
+#: core/modules/reports/parts/tables.php:39
+msgid "Period"
+msgstr ""
+
+#: core/modules/reports/parts/tables.php:15
+msgid "Signup"
+msgstr ""
+
+#: core/modules/reports/parts/tables.php:16
+msgid "Cancellations"
+msgstr ""
+
+#: core/modules/reports/parts/tables.php:17
+msgid "Expiration"
+msgstr ""
+
+#: core/modules/reports/parts/tables.php:35
+msgid "Sales and Revenue"
+msgstr ""
+
+#: core/modules/reports/parts/visual-report.php:3
+msgid "Visual Report"
+msgstr ""
+
+#: core/modules/reports/parts/visual-report.php:6
+msgid "Active Membership Per Level"
+msgstr ""
+
+#: core/modules/reports/parts/visual-report.php:10
+msgid "Revenues and Refunds"
+msgstr ""
+
+#: create-members.php:118
+msgid "Active required Plugin"
+msgstr ""
+
+#: utils/helper.php:334
+msgid "This content is for {package} members only.<br /><a href=\"%s\">Join Now</a>"
+msgstr ""
+
+#: utils/helper.php:349
+#: utils/helper.php:350
+msgid "Cancelled Membership"
+msgstr ""
+
+#: utils/helper.php:503
+msgid "Security check failed"
+msgstr ""
+
+#: utils/helper.php:590
+msgid "WordPress Membership Membership"
+msgstr ""
